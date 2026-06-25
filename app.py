@@ -1,12 +1,11 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import tensorflow as tf
-
+from keras.models import load_model
 from labels import labels
 
 # =========================
-# PAGE CONFIG (IMPORTANT)
+# PAGE CONFIG
 # =========================
 st.set_page_config(
     page_title="Traffic Sign Recognition",
@@ -17,12 +16,13 @@ st.set_page_config(
 # =========================
 # LOAD MODEL
 # =========================
-model = tf.keras.models.load_model("traffic_sign_model.keras")
+model = load_model("traffic_sign_model.keras")
+
 
 # =========================
 # HEADER
 # =========================
-st.title("🚦 Traffic Sign Recognition AI")
+st.title("🚦 Traffic Sign Recognition System")
 st.markdown("Upload a traffic sign image and get instant prediction using a CNN model.")
 
 st.divider()

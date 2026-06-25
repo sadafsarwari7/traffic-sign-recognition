@@ -1,6 +1,6 @@
 # 🚦 Traffic Sign Recognition using CNN
 
-A deep learning-based Traffic Sign Recognition System built using Python, TensorFlow, and Streamlit.  
+A machine learning-based Traffic Sign Recognition System built using Python, TensorFlow, and Streamlit.  
 The model classifies traffic signs into 43 categories using a Convolutional Neural Network (CNN) trained on the GTSRB dataset.
 
 ---
@@ -123,7 +123,7 @@ Confidence: 0.98
 
 Sadaf  
 Computer Science Student  
-Focus: Data Science, Machine Learning, Software Engineering
+Focus: Data Science, Machine Learning, Data analysis
 
 ---
 

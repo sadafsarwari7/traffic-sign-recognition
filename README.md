@@ -38,13 +38,13 @@ It includes a trained CNN model and a simple web interface built with Streamlit 
 
 traffic-sign-recognition/
 │
-├── app.py                      # Streamlit web app
-├── train.py                    # Model training script
-├── load_data.py                # Dataset loading & preprocessing
-├── labels.py                  # Class label mapping (43 classes)
-├── traffic_sign_model.keras   # Trained CNN model
-├── requirements.txt           # Dependencies
-└── README.md                  # Project documentation
+├── app.py                     
+├── train.py                    
+├── load_data.py                
+├── labels.py                  
+├── traffic_sign_model.keras   
+├── requirements.txt           
+└── README.md                  
 
 ---
 
@@ -79,37 +79,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 Model Training (Optional)
 
-To retrain the model:
-
-python train.py
-
----
-
-## 📸 Example Output
-
-Input: Traffic sign image  
-Output: Predicted label + confidence score  
-
-Example:
-
-Prediction: Stop Sign 🚦  
-Confidence: 0.98
-
----
-
-## 🧠 Model Architecture
-
-- Conv2D → MaxPooling
-- Conv2D → MaxPooling
-- Conv2D → MaxPooling
-- Flatten
-- Dense (128 units)
-- Dropout (0.5)
-- Dense (Softmax output layer - 43 classes)
-
----
 
 ## 📈 Results
 
@@ -123,16 +93,7 @@ Confidence: 0.98
 
 Sadaf  
 Computer Science Student  
-Focus: Data Science, Machine Learning, Data analysis
-
----
-
-## ⭐ Future Improvements
-
-- Deploy on Streamlit Cloud
-- Improve accuracy with data augmentation
-- Add top-3 predictions
-- Enhance UI design
+Focus: Data Science
 
 ---
 
